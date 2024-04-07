@@ -101,5 +101,7 @@ Optional external led anode (+ | long leg) to one resistor leg. External led cat
 ## SPAD.neXt
 
 The SPAD.neXt configuration is very simple, just create a new device in the settings page, then add a "Serial Device" and select the Arduino board COM port from the list.
+
 The config is DTR off, 32 bit ON. 
+
 SPAD.next needs to be restarted after this settings.
