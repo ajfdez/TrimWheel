@@ -75,7 +75,7 @@ It can also be compiled using the Arduino IDE changing the extension from main.c
 
 Arduino UNO or Leonardo like board, a rotary encoder and a push button.
 
-The rotary encoder pins DT and CLK are connected to Pin 2 and Pin 3 of the Arduino board. The push button SW, is connected to Pin 4(SW). GND Pin to an Arduino GND pin.
+The rotary encoder pins DT and CLK are connected to Pin 2 and Pin 3 of the Arduino board. The push button SW, is connected to Pin 4. GND Pin to an Arduino GND pin.
 
 The push button is optional and is not used in this example, but set up as Pin 4.
 
