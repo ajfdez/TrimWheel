@@ -38,7 +38,7 @@ It can also be compiled using the Arduino IDE changing the extension from main.c
 
 1   Arduino Uno/Leonardo/Mega board.
 
-1   Quadrature encoder with or without push button. Look for "rotary encoder" on Amazon or your electronics parts supplier. 
+1   Rotary encoder with or without push button. Look for "rotary encoder" on Amazon or your electronics parts supplier. 
     Just about any will work, for best results look for one with a PCB and a knob. The PCB marked pins usually are:
 
 |   PIN    | Connection                                                 |
