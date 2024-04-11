@@ -61,7 +61,7 @@ It can also be compiled using the Arduino IDE changing the extension from main.c
 
 ## HARDWARE SETUP          
 
-Arduino UNO or Leonardo like board, a rotary encoder and a push button.
+Arduino UNO or Leonardo like board, and a rotary encoder.
 
 The rotary encoder pins DT and CLK are connected to Pin 2 and Pin 3 of the Arduino board. The GND Pin goes to any Arduino GND pin.
 
