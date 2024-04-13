@@ -30,7 +30,7 @@ This project is not endorsed or afiliated in any way with SPAD.neXt.
 ## CODE COMPILATION          
 
 #### Visual Studio Code & PlatformIO
-This code is compiled using Visual Studio Code and PlatformIO Extension Core 6.1.14 Home 3.4.4 versions.
+This code is compiled using Visual Studio Code and PlatformIO Extension Core 6.1.14 Home 3.4.4 versions.<br>
 If you are using other than an UNO board, remember to change the ```board``` build option to the one you are using in the ```platformio.ini``` file.
 
 #### Arduino IDE
