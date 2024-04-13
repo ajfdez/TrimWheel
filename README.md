@@ -15,14 +15,14 @@ This is a code for a hardware trim wheel controller for Microsoft Flight Simulat
 
 
 Even the most el cheapo encoder found on Amazon will perform much more better than those used in the Saitek/Logitech hardware controllers. 
-Look for "rotary encoder" on Amazon or your electronics parts supplier to find yours.
+Look for **rotary encoder** on Amazon or your electronics parts supplier to find yours.
 This code uses hardware interrupts for not loosing a single rotary step, Allowing for better simulation inmersion and accuracy with a tactile feedback control.
 
 The trim wheel is a simple rotary encoder used to control the trim wheel in the simulator. 
 The Arduino board is connected to the PC via USB and the SPAD.neXt software is used to communicate with the Arduino board.
 
 SPAD.neXt is a software that allows you to create custom controls for flight simulators. You can download it from https://www.spadnext.com/. 
-A license for running SPAD.next is needed, and charges may apply.
+A license for running SPAD.neXt is needed, and charges may apply.
 
 This project is not endorsed or afiliated in any way with SPAD.neXt.
 
@@ -39,18 +39,18 @@ It can also be compiled using the Arduino IDE changing the extension from ```src
 
 ## HARDWARE
 
-1   Arduino Uno/Leonardo/Mega board.
+1   Arduino Uno / Leonardo / Mega board.
 
-1   Rotary encoder with or without push button. Look for "rotary encoder" on Amazon or your electronics parts supplier. 
+1   Rotary encoder with or without push button. Look for **rotary encoder** on Amazon or your electronics parts supplier. 
     Just about any will work, for best results look for one with a PCB and a knob. The PCB marked pins usually are:
 
 |   PIN    | Connection                                                 |
 |----------|------------------------------------------------------------|
 |    GND   | Ground connection to Arduino GND pin.                      |
-|     +    | 5V power supply. See NOTE 1.                               |
+|     +    | 5V power supply. **See NOTE 1.**                               |
 |    SW    | Push button. Not used.     |
-|    DT    | Encoder pin B to Arduino Pin 2. See NOTE 2.                |
-|    CLK   | Encoder pin A to Arduino Pin 3. See NOTE 2.                |
+|    DT    | Encoder pin B to Arduino Pin 2. **See NOTE 2.**                |
+|    CLK   | Encoder pin A to Arduino Pin 3. **See NOTE 2.**                |
 
 #### NOTE 1: + or 5V pin of the encoder PCB is used for the included pull up resistors for the encoder pins A and B, since we are using the pull up resistors embedded in the Arduino chip, this pin is not needed, and may left unconnected. But if you are experiencing "lost ticks", or using long cables from Arduino to encoder boards, this pin may need be used for better rotary detection.
 
