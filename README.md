@@ -24,14 +24,17 @@ The Arduino board is connected to the PC via USB and the SPAD.neXt software is u
 SPAD.neXt is a software that allows you to create custom controls for flight simulators. You can download it from https://www.spadnext.com/. 
 A license for running SPAD.next is needed, and charges may apply.
 
-This project is not endorsed or afiliated in any way with SPAD.next.
+This project is not endorsed or afiliated in any way with SPAD.neXt.
 
 
 ## CODE COMPILATION          
 
+#### Visual Studio Code & PlatformIO
 This code is compiled using Visual Studio Code and PlatformIO Extension Core 6.1.14 Home 3.4.4 versions.
+If you are using other than an UNO board, remember to change the ```board``` build option to the one you are using in the ```platformio.ini``` file.
 
-It can also be compiled using the Arduino IDE changing the extension from main.cpp to main.ino, or copy/pasting the code into the Arduino IDE.
+#### Arduino IDE
+It can also be compiled using the Arduino IDE changing the extension from ```src/main.cpp``` to ```main.ino```, or copy/pasting the code into the Arduino IDE.
 
 
 ## HARDWARE
@@ -66,27 +69,27 @@ Arduino UNO or Leonardo like board, and a rotary encoder.
 The rotary encoder pins DT and CLK are connected to Pin 2 and Pin 3 of the Arduino board. The GND Pin goes to any Arduino GND pin.
 
 The connection stablished led is connected to Pin 12 via a 150 Ohm resistor. 
-Completely optional, lits up when a SPAD.next connection is up and running. You can even use the Arduino board led using the Pin 13, changing the ledPin variable to 13.
+Completely optional, lits up when a SPAD.next connection is up and running. You can even use the Arduino board led using the Pin 13, changing the ```ledPin``` variable to 13.
 
 
 ## WIRING
 
-Take a look in the /img folder for the images of the circuit.
+Take a look in the ```/img``` folder for the images of the circuit.
 
 <img src="https://github.com/ajfdez/TrimWheel/blob/main/img/TrimWheel-SCH.png" width="397" height="526">
 
 ## SPAD.neXt
 
-The SPAD.neXt configuration is very simple, just create a new device in the settings page, then add a "Serial Device" and select the Arduino board COM port from the list.
+The SPAD.neXt configuration is very simple, just create a new device in the settings page, then add a ```Serial Device``` and select the Arduino board COM port from the list.
 
 The config is DTR off, 32 bit ON. 
 
-SPAD.next needs to be restarted after this settings.
+SPAD.neXt needs to be restarted after this settings.
 
 
 ## CREDITS
 
-SPAD.next  https://www.spadnext.com/
+SPAD.neXt  https://www.spadnext.com/
 
 This code uses the CmdMessenger and EncoderButton libraries.
 
