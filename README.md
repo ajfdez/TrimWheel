@@ -26,6 +26,7 @@ A license for running SPAD.neXt is needed, and charges may apply.
 
 This project is not endorsed or afiliated in any way with SPAD.neXt.
 
+Please take a look in https://github.com/ajfdez/OneKnobRadio to see another related project.
 
 ## CODE COMPILATION          
 
