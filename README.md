@@ -1,14 +1,16 @@
-# Trim Wheel for Microsoft Flight Simulator 2020
+# Trim Wheel for Microsoft Flight Simulator 2020 / 2024
 
 ##### Version: 1.0
 ##### License: MIT
 ##### Author: Albert J. Fernandez | 04-2024
 ##### https://github.com/ajfdez/TrimWheel
 
+## NEWS
+This solution has been tested on the 2024 version of the Flight Simulator.
 
 ## DESCRIPTION
 
-This is a code for a hardware trim wheel controller for Microsoft Flight Simulator 2020 using SPAD.neXt and an Arduino UNO or Leonardo like board.
+This is a code for a hardware trim wheel controller for Microsoft Flight Simulator 2020 and 2024 using SPAD.neXt and an Arduino UNO or Leonardo like board.
 
 <img src="https://github.com/ajfdez/TrimWheel/blob/main/img/TrimWheel-BOD.png" width="397" height="526">
 
